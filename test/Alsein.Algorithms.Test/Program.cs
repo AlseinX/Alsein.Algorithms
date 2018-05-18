@@ -1,6 +1,7 @@
 ﻿using System;
 using Alsein.Algorithms.Searching;
 using System.Linq;
+using Alsein.Utilities;
 
 namespace Alsein.Algorithms.Test
 {
@@ -18,7 +19,7 @@ namespace Alsein.Algorithms.Test
         {
             var depth = 0;
             var found = false;
-            var result = new[] { new Test { Value = 1 } }.Search(SearchAlgorithm.BreadthFirst).AsParallel().Where(x =>
+            var result = new Test { Value = 1 }.Plural().Search(SearchAlgorithm.BreadthFirst).AsParallel().Where(x =>
             {
                 if (x.Depth > depth)
                 {

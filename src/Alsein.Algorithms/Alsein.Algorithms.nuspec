@@ -16,10 +16,10 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <dependencies>
             <group targetFramework="netstandard2.0">
-                <dependency id="Alsein.Utilities" version="0.1.5" />
+                <dependency id="Alsein.Utilities" version="0.1.6" />
             </group>
             <group targetFramework="net45">
-                <dependency id="Alsein.Utilities" version="0.1.5" />
+                <dependency id="Alsein.Utilities" version="0.1.6" />
             </group>
         </dependencies>
         <copyright>Copyright &#x00A9; Alsein.  All rights reserved.</copyright>
