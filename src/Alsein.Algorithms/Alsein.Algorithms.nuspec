@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package
+    xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Alsein.Algorithms</id>
+        <version>0.1.0</version>
+        <description>Some algorithm features in addition to LINQ.</description>
+        <authors>Alsein</authors>
+        <!-- Optional elements -->
+        <title>Alsein's Algorithm Libraries</title>
+        <owners>Alsein</owners>
+        <projectUrl>https://github.com/AlseinX/Alsein.Algorithms</projectUrl>
+        <licenseUrl>https://github.com/AlseinX/Alsein.Algorithms/blob/master/LICENSE</licenseUrl>
+        <iconUrl>https://raw.githubusercontent.com/AlseinX/Alsein.Algorithms/master/Alsein.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <dependencies>
+            <group targetFramework="netstandard2.0">
+                <dependency id="Alsein.Utilities" version="0.1.5" />
+            </group>
+            <group targetFramework="net45">
+                <dependency id="Alsein.Utilities" version="0.1.5" />
+            </group>
+        </dependencies>
+        <copyright>Copyright &#x00A9; Alsein.  All rights reserved.</copyright>
+        <!-- ... -->
+    </metadata>
+    <files>
+        <file src="bin\Release\netstandard2.0\Alsein.Algorithms.dll" target="lib\netstandard2.0" />
+        <file src="bin\Release\netstandard2.0\Alsein.Algorithms.*.dll" target="lib\netstandard2.0" />
+        <file src="bin\Release\net45\Alsein.Algorithms.dll" target="lib\net45" />
+        <file src="bin\Release\net45\Alsein.Algorithms.*.dll" target="lib\net45" />
+    </files>
+    <!-- Optional 'files' node -->
+</package>
