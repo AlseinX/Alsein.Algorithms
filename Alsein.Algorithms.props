@@ -1,0 +1,23 @@
+<Project>
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+        <LangVersion>latest</LangVersion>
+        <Version>0.2.0</Version>
+        <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+        <AssemblyVersion>$(Version)</AssemblyVersion>
+        <RootNamespace>Alsein.Algorithms</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Authors>Alsein</Authors>
+        <Copyright>Copyright &#x00A9; Alsein.  All rights reserved.</Copyright>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/AlseinX/Alsein.Algorithms</PackageProjectUrl>
+        <PackageLicenseUrl>$(PackageProjectUrl)/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/AlseinX/Alsein.Algorithms/master/Alsein.png</PackageIconUrl>
+        <RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
+        <MinClientVersion>3.4</MinClientVersion>
+    </PropertyGroup>
+
+</Project>

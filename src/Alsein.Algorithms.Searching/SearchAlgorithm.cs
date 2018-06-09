@@ -1,9 +1,5 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Alsein.Algorithms.Searching.SearchAlgorithms;
-using Alsein.Utilities;
 
 namespace Alsein.Algorithms.Searching
 {

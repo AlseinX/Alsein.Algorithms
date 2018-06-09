@@ -1,11 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <Import Project="..\..\Alsein.Algorithms.props" />
+
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Title>Alsein's Seaching Libraries</Title>
+    <Description>Some map searching conveniences provided with LINQ.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Alsein.Utilities" Version="0.1.6" />
+    <PackageReference Include="Alsein.Utilities.Functional" Version="0.2.0" />
   </ItemGroup>
 
 </Project>
