@@ -3,7 +3,7 @@
   <Import Project="..\..\Alsein.Algorithms.props" />
 
   <PropertyGroup>
-    <Title>Alsein's Seaching Libraries</Title>
+    <Title>Alsein's Seaching Library</Title>
     <Description>Some map searching conveniences provided with LINQ.</Description>
   </PropertyGroup>
 
