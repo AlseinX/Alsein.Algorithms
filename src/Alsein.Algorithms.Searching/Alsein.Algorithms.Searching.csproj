@@ -3,12 +3,13 @@
   <Import Project="..\..\Alsein.Algorithms.props" />
 
   <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <Title>Alsein's Seaching Library</Title>
     <Description>Some map searching conveniences provided with LINQ.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Alsein.Utilities.Functional" Version="0.2.0" />
+    <PackageReference Include="Alsein.Utilities.Functional" Version="0.2.1" />
   </ItemGroup>
 
 </Project>

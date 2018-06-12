@@ -1,9 +1,8 @@
 <Project>
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
         <LangVersion>latest</LangVersion>
-        <Version>0.2.0</Version>
+        <Version>0.2.1</Version>
         <AssemblyName>$(MSBuildProjectName)</AssemblyName>
         <AssemblyVersion>$(Version)</AssemblyVersion>
         <RootNamespace>Alsein.Algorithms</RootNamespace>
@@ -19,6 +18,7 @@
         <PackageIconUrl>https://raw.githubusercontent.com/$(GitRepository)/master/Alsein.png</PackageIconUrl>
         <RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
         <MinClientVersion>3.4</MinClientVersion>
+        <PackageOutputPath>$(MSBuildProjectDirectory)/../../dist</PackageOutputPath>
     </PropertyGroup>
 
 </Project>

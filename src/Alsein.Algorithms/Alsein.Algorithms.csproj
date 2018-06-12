@@ -3,6 +3,7 @@
   <Import Project="..\..\Alsein.Algorithms.props" />
 
   <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <Title>Alsein's Algorithm Libraries</Title>
     <Description>Some algorithm features in addition to LINQ.</Description>
     <IncludeBuildOutput>false</IncludeBuildOutput>
